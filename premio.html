@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<div class="bg_heart">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>FELICIDADES</title>
+    <style>
+        /* Estilos CSS para la galería */
+        body {
+            text-align: center; /* Centra el contenido horizontalmente */
+        }
+
+        .titulo {
+            margin-top: 20px; /* Espacio sobre el título */
+            font-size: 24px; /* Tamaño de fuente del título */
+        }
+
+        .galeria {
+            display: flex;
+            flex-wrap: wrap; /* Asegura que las imágenes se envuelvan en varias filas si es necesario */
+            justify-content: center; /* Centra las imágenes horizontalmente */
+            margin-top: 20px; /* Espacio entre el título y las imágenes */
+        }
+
+        .normal{
+            width: 200px; /* Ajusta el ancho según tus preferencias */
+            height: auto; /* Mantiene la relación de aspecto original */
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+            margin: 10px; /* Espacio entre las imágenes */
+        }
+        .png{
+            width: 200px; /* Ajusta el ancho según tus preferencias */
+            height: auto; /* Mantiene la relación de aspecto original */
+            
+            
+            margin: 10px; /* Espacio entre las imágenes */
+        }
+        p{
+            font-size: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1 class="titulo">FELICITACIONES</h1>
+    <p>Ganaste unas flores amarillas</p>
+    <!-- Contenedor de la galería -->
+    <div class="galeria">
+        <img class="normal" src="img/descarga.jpeg" alt="Foto 1">
+        <img class="normal" src="img/perro.jpg" alt="Foto 5">
+        <img class="png" src="img/flor.webp" alt="Foto 2">
+        <img class="png" src="img/Flowers.png" alt="Foto 6">
+        <img class="normal" src="img/images.png" alt="Foto 4">
+        <img class="normal" src="img/florees.jpg" alt="Foto 3">
+      
+    </div>
+    <button class="btn" onclick="volverAJugar()">VOLVER A JUGAR</button>
+    <script src="script.js"></script>
+</body>
+</div>
+</html>
+
